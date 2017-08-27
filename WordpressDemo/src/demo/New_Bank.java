@@ -26,6 +26,9 @@ WebDriver driver;
 	@FindBy(how=How.ID,using="balance")
 	WebElement Balance;
 	
+	@FindBy(how=How.CLASS_NAME,using="btn btn-primary")
+	WebElement submit;
+	
 	
 	
 	
@@ -36,7 +39,7 @@ WebDriver driver;
 		account.sendKeys(account_title);	
 		Description.sendKeys(Desc);
 		Balance.sendKeys(balan);
-	
+	    submit.click();
 	
 	}
 
