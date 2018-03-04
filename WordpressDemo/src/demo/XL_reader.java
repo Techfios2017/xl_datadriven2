@@ -19,7 +19,7 @@ public class XL_reader {
 	
 	public void action(String username, String password, String accounttile,String description,String blance){
 		
-		WebDriver driver = BrowserFactory.startBrowser("chrome", "http://techfios.com/test/?ng=login/");
+		WebDriver driver = BrowserFactory.startBrowser("chrome", "http://techfios.com/test/billing/?ng=login/");
 		Techfios_login login = PageFactory.initElements(driver, Techfios_login.class);
 		login.login_techfios(username, password);
 		Techfios_homepage click = PageFactory.initElements(driver, Techfios_homepage.class);		

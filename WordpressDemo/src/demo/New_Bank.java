@@ -26,7 +26,7 @@ WebDriver driver;
 	@FindBy(how=How.ID,using="balance")
 	WebElement Balance;
 	
-	@FindBy(how=How.CLASS_NAME,using="btn btn-primary")
+	@FindBy(how=How.XPATH,using=".//*[@id='page-wrapper']/div[3]/div[1]/div/div/div[2]/form/button")
 	WebElement submit;
 	
 	
