@@ -27,11 +27,7 @@ WebDriver driver;
 	WebElement Balance;
 	
 	@FindBy(how=How.XPATH,using=".//*[@id='page-wrapper']/div[3]/div[1]/div/div/div[2]/form/button")
-	WebElement submit;
-	
-	
-	
-	
+	WebElement submit;	
 	
 	
 	public void select_account(String account_title,String Desc,String balan){

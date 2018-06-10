@@ -15,11 +15,12 @@ import util.BrowserFactory;
 
 public class New_BankTest {
 	ReadData readExcelData = new ReadData();
-	String username = null;
-	String password = null;
-	String accounttile = null;;
-	String description = null;
-	String blance = null;
+	
+	String username ;
+	String password;
+	String accounttile;
+	String description;
+	String blance;
 	
 	public New_BankTest() throws IOException{
 		
@@ -30,8 +31,8 @@ public class New_BankTest {
 			password = userdata[j][1];
 			accounttile = userdata[j][2];
 			description = userdata[j][3];
-			blance = userdata[j][4];		
-		}		
+			blance = userdata[j][4];
+	    }		
 	}
 		
 	@Test
