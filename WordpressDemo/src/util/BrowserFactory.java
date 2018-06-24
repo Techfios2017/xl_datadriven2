@@ -31,7 +31,7 @@ public class BrowserFactory {
 		
 		else if(browserName.equalsIgnoreCase("chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver", "C:/auto1/chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\eldrid\\git\\Selenium_pageobject1\\Copy of WordpressDemo\\drivers\\chromedriver.exe");
 			driver = new ChromeDriver();
 		}
 		

@@ -1,7 +1,7 @@
 package test;
 
 import java.io.IOException;
-import java.sql.Driver;
+//import java.sql.Driver;
 
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
